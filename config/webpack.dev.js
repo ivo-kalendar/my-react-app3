@@ -12,7 +12,8 @@ module.exports = {
 	devServer: { 
 		host: '192.168.0.100', 
 		port: '7788',
-		historyApiFallback: true 
+		historyApiFallback: true,
+		overlay: true
 	},
 	module: {rules: [
 		{ test: /\.jsx?/, loader: 'babel-loader' },
